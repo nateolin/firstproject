@@ -1,0 +1,176 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .87);
+  font-size: 13px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  font-size: 18px;
+  border: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#header {
+  padding-top: 14px;
+  padding-right: 28px;
+  padding-left: 15px;
+}
+
+.toprightlist {
+  float: right;
+}
+
+.topleftlist {
+  padding-top: 14px;
+  color: rgba(0, 0, 0, 0.77);
+  vertical-align: sub;
+}
+
+.topleftlist:hover {
+  text-decoration: underline;
+}
+
+.toprightlist a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.body {
+  margin: auto;
+  width: 550px;
+  padding-top: 160px;
+}
+
+.toprightlist li {
+  padding-right: 10px;
+  padding-left: 6px;
+}
+
+.buttons {
+  display: inline;
+  margin: 15px 3px;
+  height: 40px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  font-size: small;
+  font-weight: bold;
+  color: #757575;
+  line-height: 0;
+  padding: 14px;
+}
+
+.searchButtons {
+  margin-left: 25%;
+}
+
+.buttons:hover {
+  border: 1px solid #b4b6ba;
+  color: black;
+}
+
+/*
+.searchButtons:focus {
+  outline: none;
+}
+*/
+
+.footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 14px 14px 12px;
+  display: inline-block;
+}
+
+.footer a {
+  padding-left: 8px;
+  color: rgba(0, 0, 0, 0.67);
+  vertical-align: sub;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.bottomrightlist {
+  float: right;
+  margin: 0;
+  padding-right: 28px;
+  display: inline-block;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#searchBox {
+  border: 1px;
+  border-color: #f2f2f2;
+  box-shadow: 1px 1px 5px grey;
+}
+
+#searchBox:hover {
+  border: 2px;
+  border-color: grey;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#appsIcon {
+  height: 16px;
+  vertical-align: middle;
+  opacity: 0.6;
+  padding-right: 5px;
+}
+
+#appsIcon:hover {
+  opacity: 1.0;
+}
+
+#signIn {
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border: 1px solid #4285f4;
+  color: white;
+  padding: 0px 12px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  z-index: auto;
+  line-height: 28px;
+  border-radius: 2px;
+}
+
+#signIn:active {
+  background: hsla(218, 83%, 50%, 1);
+}
